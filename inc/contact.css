@@ -1,0 +1,310 @@
+*{margin:0;padding:0;}
+body{font-family:arial,'georgian' !important; font-size:16px;transition: all 1s ease;
+	color: #ddd; text-align:center;
+}
+h1,h2,h3,h4,h5{font-family:georgian; font-size:15px; color:brown; }
+a,p,span{text-decoration:none; color: #504e70;}ul,li{list-style:none;display:block;}
+img{max-width:100%; height:auto;}
+.container{max-width:100%;margin:0;padding:0}
+.main_content{max-width:1170px !important;margin:0 auto;display:block;}
+.top_bg{ background: #e9e9e9!important; overflow:hidden; position:fixed;}
+.content_bg{background: #f2f2fc; overflow:hidden;}
+.fix{overflow:hidden;}
+.left_area{float:left;}
+.right_area{float:right;}
+
+					/* Optional Tryprography END */
+/* CSS Tryprography end here...*/
+
+/* left content menu start.. */
+
+aside.content_sidebar{
+	max-width:21%;
+	height: calc(100% - 9%);
+	height: calc(100% - -37%);
+	background:#fdf9ff !important;
+	display:block;
+	transition: 0.5s;
+	transition-property: left;
+	overflow: hidden;
+	padding-top: 30px;
+	position: fixed !important;
+	top:70px;
+
+}
+div.profile_info{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding-bottom:30px;
+}
+div.profile_info img{
+	max-width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+div.profile_info h4{
+	font-size: 17px;
+    line-height: 25px;
+}
+div.profile_info p{
+	font-family:monospace;
+	font-size:14px;
+	line-height:18px;
+	padding: 10px 20px;
+}
+
+nav ul li{
+  transition: 0.5s;
+  transition-property: background;
+}
+nav ul li>a{
+  display: block;
+  width: 100%;
+  line-height: 45px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  text-align:left;
+}
+
+nav ul li i{padding-right:10px;color:#1b1a1a}
+
+nav ul li:hover{background:#ebebeb;}
+
+nav ul li:hover i{
+  color: #ec1839;
+}
+nav ul li:hover span{
+	color:#ec1839;
+}
+
+nav.uiScrollableArea {
+    direction: ltr;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+section.content_wraper{
+    max-width:79%;
+    height: auto;
+	display:block;
+	overflow:hidden;
+	background: #1abc9c75;
+    background: #f2f2fc;
+    margin-left: 283px !important;
+    background-size: cover;
+	margin-top:70px !important;
+}
+div.content{
+	max-width:100%;
+	display:block;
+	overflow:hidden;
+	margin:0 auto;
+}
+div#contact_page{
+	margin-top:100px;
+	padding:0px 20px;
+}
+div#contact_page .heading{
+	text-align:left;
+    text-shadow: 1px 2px 3px #d4d4e3;
+	color: #302e4d;
+    padding-top: 25px;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 64px;
+	padding-left: 30px;
+    text-transform: capitalize;
+}
+
+div#contact_page .contact_mgs{
+	color: #504e70;font-family:arial;font-size:17px;
+line-height:30px;padding-left:30px;padding-bottom:15px;}
+div#contact_page .contact_info{
+	padding: 25px 0px 0px 30px;
+	display:block;
+	max-width:100%;
+	
+}
+div.contact_info .one_half{
+	display:inline;
+	float:left;
+	width:33%;
+	text-align:center;
+}
+
+div.contact_info .one_half i{color: #ec1839; font-size:28px;padding:12px 10px;}
+div.contact_info .one_half h3{
+	font-family:georgian;padding: 10px 0px;
+	font-size:18px; color:#302e4d;
+	text-transform: capitalize;   
+}
+div.contact_info .one_half p{
+	font-family:georgian;padding-bottom:30px;
+	font-size:15px; color:#504e70;
+	
+}
+
+div.contact_form{
+    padding: 25px 0px 0px 30px;
+    display: block;
+    max-width: 100%;
+   
+}
+div.contact_form input,textarea{
+	padding:1.2% 0% 1.2% 1%;
+	margin:12px 0px;
+	border:0.5px solid #d4d4e3;
+	border-radius:20px;
+	outline:none;
+	cursor:pointer;
+	max-width:98% !important;
+	overflow:hidden;
+	clear:right;
+}
+div.contact_form #mgs_box{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    overflow-y: auto;
+}
+div.contact_form input[type="text"]{
+	 width: 48%;
+	 float:left;
+}
+div.contact_form input[type="email"]{
+	 width: 48%;
+	 float:right;
+	 
+}
+div.contact_form input#subj[type="text"]{
+	 width: 100%;
+	 padding-right:6px;
+}
+div.contact_form input[type="submit"]{
+	/* background:#ec1839; */
+	background:#e5e5e5529;
+	color:#fff;
+	padding:9px 25px;
+	text-align:center;
+	float:left;
+	transition:0.5s;
+	transition-property:background,color;
+}
+div.contact_form input:hover[type="submit"]{
+	background:#d6d0d1;
+	
+	color:black;
+}
+/* left content menu end.. */
+
+/* header{
+  z-index: 1;
+  position: fixed;
+  background: #22242A;
+  padding: 20px;
+  height: 30px;
+}
+
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span{
+  color: #19B3D3;
+}
+
+.logout_btn{
+  padding: 5px;
+  background: #19B3D3;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.logout_btn:hover{
+  background: #0B87A6;
+}
+
+
+.sidebar{
+  z-index: 1;
+  top: 0;
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: calc(100% - 9%);
+  transition: 0.5s;
+  transition-property: left;
+  overflow-y: auto;
+}
+
+.profile_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar .profile_info .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar .profile_info h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar p{
+	color: #ccc;
+    padding: 10px 20px;
+    line-height: 22px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-family: monospace;
+  font-size:15px;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #19B3D3;
+}
+
+.sidebar i{
+  padding-right: 10px;
+} */
